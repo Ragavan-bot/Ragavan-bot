@@ -1,0 +1,123 @@
+.navbar{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background: #0c111b;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+#num.active{ 
+    background-color:blue;
+    color: rgb(255, 255, 255);
+  } 
+  /* .navbar{
+    border: 1px solid gray;
+    background-color: rgb(6, 6, 6);
+    height: 40px;
+  } */
+   #num{
+    color:rgb(255, 255, 255);
+    text-decoration-line: none;
+    padding: 7px 15px;
+    border-radius: 6px;
+    border: none;
+   }
+.brand-logo{
+    height: 40px;
+}
+.nav-links{
+    margin: auto;
+    margin-left: -35px;
+    display: flex;
+    list-style:none;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 13px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.9;
+}
+.right-container{
+    display: flex;
+    margin: auto;
+    margin-right: -90px;
+}
+.login-link{
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn-primary{
+    margin-right: 70px;
+}
+.fa-bell{
+font-size:25px;
+margin-right: 20px;
+cursor: pointer;
+color: white;
+}
+#glyphicon{
+    font-size:28px;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.fa-user-circle{
+    font-size:25px;
+    color: white;
+    cursor: pointer;
+}
+ .Username{
+color: #fff;
+margin-top: 5px;
+margin-right: 10px;
+}
+.fa-calendar-o{
+    font-size:25px;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.dropdown-menu{
+padding: 5px 5px;
+margin-left: -150px;
+ 
+margin-top: 5px;
+}  
+@media (max-width:990px){
+    .navbar-toggler{
+        position: relative;
+       }
+       #ChannelLogo{
+        display: none;
+       }
+       .nav-links{
+        display:grid;
+       }
+       .navbar{
+      height: auto;
+       }
+        ul li {
+        margin: 5px;
+        padding: 10px;
+       }
+}
+#ToglerButton{
+    height: 35px;
+}
+#ChannelLogo{
+    color: white;
+    margin-left: -40px;
+}

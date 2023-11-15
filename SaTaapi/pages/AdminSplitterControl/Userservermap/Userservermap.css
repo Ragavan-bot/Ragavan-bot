@@ -1,0 +1,44 @@
+#TabControl{
+  margin-left: 70px;
+  display: flex;
+height: auto;
+width: 380px;
+
+}
+
+#userservertab{
+height: 35px;
+ border-bottom: 1px solid gray;
+}
+ 
+#tab{
+  margin-left: -50px;
+  border: none;
+  height: 25px;
+ 
+}
+#tab:active{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+.inactive{
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+.active,.inactive:hover{
+  background-color: gray;
+}
+
+button{
+  align-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+}
+span{
+  font-size: 12px;
+  position: relative;
+}

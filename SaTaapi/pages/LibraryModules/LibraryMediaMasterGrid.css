@@ -1,0 +1,20 @@
+#Gridnav.active{ 
+    background-color:blue;
+    color: rgb(255, 255, 255);
+  } 
+   #Gridnav{
+    color:rgb(255, 255, 255);
+    text-decoration-line: none;
+    padding: 7px 15px;
+    border-radius: 6px;
+    border: none;
+   }
+  #Navbars{
+    background-color: black;
+    height: 40px;
+    margin-top: -18px;
+    display: flex;
+    gap: 60px;
+    width:100%;
+    border-radius: 5px;
+  }
