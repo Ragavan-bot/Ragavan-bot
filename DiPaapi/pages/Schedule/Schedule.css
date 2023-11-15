@@ -1,0 +1,68 @@
+#schName{
+    visibility: hidden;
+  }
+  #tv{
+    display: flex;
+  }
+ #gap{
+ margin-right: 20px;
+height: 15px;
+width: 15px;
+cursor: pointer;
+ }   
+
+
+ @media  (max-width: 100px) {
+  #clsslogo {
+      display: none;
+  }
+}
+.split {
+  display: flex;
+  flex-direction: row;
+height:100vh;
+
+} 
+#SchTreeSplitter{
+  width: 25%;
+  min-width: 25%;
+  max-width: 25%;
+}
+ #SchScheduleHeader{
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+  
+ }
+ #SchScheduler{
+  width: 55%;
+  min-width: 55%;
+  max-width: 55%;
+ }
+ #cpyBtn{
+  /* margin-left: 300px;*/
+  margin-top: -15px; 
+  border: none;
+  }
+ #headerContent{
+  display: flex; 
+  height: 20px;
+ }
+ #SchDateRange{
+   position: relative;
+   bottom: 20px;
+ }
+ #SchCheckBox{
+  display: flex;
+  gap: 5px;
+  position: relative;
+  bottom: 20px;
+  padding: 10px 10px;
+  border: 1px solid rgb(220, 215, 215);
+  width: fit-content;
+  height: 39px; 
+  }
+ 
+#dxscheduleData{
+  height: 89vh;
+}

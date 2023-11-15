@@ -1,0 +1,84 @@
+ 
+  .left-pane {
+    
+    width: max-content;
+    min-width: 25%; /* Set the minimum width for the left pane */
+    max-width: 25%;
+    background-color: #f0f0f0; /* Background color for left pane */
+    padding: 10px;
+  }
+  
+  .right-pane {
+     
+     width: max-content;
+     min-width: 75%; 
+     max-width: 75%;
+     
+    background-color: #e0e0e0; 
+    padding: 10px;
+  } 
+
+  #btn-upload,#select-file{
+    display: inline-flex;
+ }
+ #btn-upload{
+    margin-left: 10px;
+ }
+ #progress-bar{
+  width: 300px;
+  visibility: hidden;
+} 
+
+html {
+  background-color: #e9e9e9;
+}
+
+#choose-file {
+  display: none;
+}
+
+#wrapper {
+  display: inline-flex; 
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ #FileUpload{
+  margin-left: 96%; 
+  position: relative;
+bottom: 40px;
+}
+ #uploadIcon{
+  margin-left: 13px;
+ }
+ #LibraryGrid{
+  height: 89vh;
+  position: relative;
+  bottom: 33px; 
+}
+
+/* video play css */
+#videoplay{
+  width:100%;
+ height: 450px;
+position: relative;
+bottom: 10px;
+}
+#closebtn{
+  margin-left: 97%;
+}
+#playicon{
+  border: none;
+  border-radius: 10px;
+background-color: rgb(230, 228, 228);
+ 
+}
+#popup-video{
+  width:fit-content;
+  height:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
