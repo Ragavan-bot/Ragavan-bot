@@ -1,0 +1,93 @@
+innerHTML = id used to get your Tag inside values  <h1>hello</h1>  push to another <p>hello</p>
+----------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The innerHTML Property</h2>
+
+<p id="myP">I am a paragraph.</p>
+
+<p>The content of "myP" is:</p>
+<p id="demo"></p>
+
+<script>
+let html = document.getElementById("myP").innerHTML;
+document.getElementById("demo").innerHTML = html;
+</script>
+
+</body>
+</html>
+
+
+outerText: changed Your Outside of value.
+----------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Set outerText</h1>
+
+<p>When setting the outerText, the entire element gets replaced.</p>
+
+<p>Click the button to change (and remove) the h1 element:</p>
+
+<button onclick="myFunction()">Change Header</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByTagName("h1")[0];
+  x.outerHTML = "Changed content!";
+}
+</script>
+
+</body>
+</html> 
+
+
+
+textContent = Get inside tag of value <h1>hello</h1>
+------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The textContent Property</h2>
+
+<button id="myBtn">T ncnhjfcuyrfc</button>
+
+<p>The text content of the button is:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.getElementById("myBtn").textContent;
+document.getElementById("demo").innerHTML = text;  
+</script>
+
+</body>
+</html>
+
+
+
+innerText:changed Your Inside the Dom Element values
+---------- 
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The innerText Property</h2>
+
+<button id="myBtn">Try iasdt</button>
+
+<p>The text content of the button element is:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.getElementById("myBtn").innerText;
+document.getElementById("demo").innerHTML = text;  
+</script>
+
+</body>
+</html>
+

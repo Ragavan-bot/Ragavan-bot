@@ -1,0 +1,20 @@
+export default function ChannalCreation() {
+  const [UserCreation, setUserCreation] = useState([]);
+  const fetchScheduleList = async () => {
+debugger
+    const requestBody = {
+      "":""
+    };
+
+    const response = await postAPICall(
+   
+      "api/Channels/Channel",
+      requestBody
+    );
+    console.log("result",response?.data)
+    setUserCreation(response?.data);
+  } 
+ 
+useEffect(() => { 
+  fetchScheduleList()
+}, []);

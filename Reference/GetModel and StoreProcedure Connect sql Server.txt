@@ -1,0 +1,15 @@
+Steps:
+     
+    1.Open Visual Stuido and Create asp.netcore Web api 
+    2.GO To Extension Click Manage Extension search EF Core power tool(Insall Chrome Browser)
+    3.right Click your Project Name and Select EF Core Power Tool =>Reverse Engineer
+    4.Add Your connnection Click Add and Fill the page...
+    5.Change EF Core 6 and Click ok 
+    6.Choose table,Views,Stored procedure Click ok
+    7.Create Your Models Folder and Create Your DbContext Name  
+    8.Select Naming =>Select Pluralize or Signature Generated object names(English) && Install the ef core Provider
+    9.Junk Folder Will Created auto Gentrated in your Project.... 
+    10.
+  
+
+    

@@ -1,0 +1,25 @@
+--fiind how mandy count in your table
+select COUNT(1) from ExamResult;
+
+SELECT * FROM ExamResult WHERE Studentname LIKE 'i%a';     
+---RowNumber
+SELECT Studentname, 
+       Subject, 
+       Marks, 
+       ROW_NUMBER() OVER(ORDER BY Marks desc) RowNumber
+FROM ExamResult;
+
+---Rank
+--first 3 values get
+---partion by used to various applications where you need to perform calculations based on subsets of data within a larger set.
+SELECT Studentname, 
+       Subject, 
+       Marks, 
+       RANK() OVER(PARTITION BY Studentname ORDER BY Marks DESC) Rank
+FROM ExamResult
+ORDER BY Studentname, 
+         Rank;
+
+---two column return by Single column using Concat
+SELECT CONCAT(subject, ' ', Studentname)
+FROM ExamResult;

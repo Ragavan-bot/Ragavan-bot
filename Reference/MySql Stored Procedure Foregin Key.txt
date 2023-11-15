@@ -1,0 +1,19 @@
+FOREIGN KEY CONNECT WITH TWO TABLES - WRITE STORED PROCEDURE FOR TWO TABLES BY INSERT DATA IN PARENT TABLE AND INSERT DATAA IN CHILD TABLE 
+
+Alter proc dependenttableinsert (@LastName varchar(20),@FirstName varchar(20)
+)
+As
+begin
+
+DECLARE @ID INT;
+Insert into persons (firstname,lastname) values (@FirstName,@LastName)
+SET @ID =   SCOPE_IDENTITY();
+insert into userDet (id,lastname,firstname) values (@ID,@LastName,@FirstName);
+select * from persons;
+select * from userDet;
+
+End
+
+exec dependenttableinsert 'Dotnet','Team'
+
+exec sp_helptext procedureName - it will display the procedure query 
